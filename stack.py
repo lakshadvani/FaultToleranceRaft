@@ -175,6 +175,6 @@ if __name__ == '__main__':
         if int(nb) == 12:
             o.siz()
         n += 1
-        # if n % 200 == 0:
-        # if True:
-        #    print('Counter value:', o.getCounter(), o._getLeader(), o._getRaftLogSize(), o._getLastCommitIndex())
+         if n % 200 == 0:
+         if True:
+            print('Counter value:', o.getCounter(), o._getLeader(), o._getRaftLogSize(), o._getLastCommitIndex())
