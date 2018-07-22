@@ -8,7 +8,7 @@ from functools import partial
 sys.path.append("../")
 from pysyncobj import SyncObj, replicated,SyncObjConf
 
-
+print()
 class TestObj(SyncObj):
     def __init__(self, selfNodeAddr, otherNodeAddrs):
         super(TestObj, self).__init__(selfNodeAddr, otherNodeAddrs)
